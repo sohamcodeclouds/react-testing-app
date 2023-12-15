@@ -3,7 +3,6 @@ import axios from 'axios'
 
 const Comments = () => {
   const [commentList, setCommentList] = useState(null)
-  const [userList, setUserList] = useState(null)
 
   useEffect(() => {
     ;(async () => {
